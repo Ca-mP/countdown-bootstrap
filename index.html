@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Countdown</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="scripts/countdown.js" defer></script>
+  </head>
+
+  
+  <div class="container-fluid bg-white">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div class="row bg-dark">
+        <div id="header" class="col border-bottom border-black border-5">
+            <div class="row justify-content-center">  
+                <img class="w-25 " src="images/brothership-logo.png">
+            </div>
+
+            <div class="row text-center">
+                <h1 class=" text-danger font-weight-bold">Countdown Timer</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="nav" class="col-4 bg-secondary">
+            <div class="row text-center justify-content-center border-bottom border-black">Navigation List</div>
+            <div class="row text-center my-3"><a href="#timer-container" class="nav-link">Countdown Timer</a></div>
+            <div class="row text-center my-3"><a href="#paragraph-1" class="nav-link">What is Brothership?</a></div>
+            <div class="row text-center my-3"><a href="#paragraph-2" class="nav-link">Why is Brothership Exciting?</a></div>
+            <div class="row text-center my-3"><a href="#paragraph-3" class="nav-link">How do I play Brothership?</a></div>
+        </div>
+
+        <div id="main" class="col-8 bg-light">
+            <div id="timer-container" class="row border border-black">
+                <div class="col bg-secondary p-3">
+                    <div class="row-6 text-center bg-success border border-black">Countdown</div>
+                    
+                    <div class="row justify-content-center">
+                        <p class="text-center m-4">Days: <span id="daysCounter">0</span> / Hours: <span id="hrsCounter">0</span> / Mins: <span id="minsCounter">0 </span> / Secs: <span id="secsCounter">0</span></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="paragraph-1" class="row">
+                <div class="jumbotron border border-black bg-secondary">
+                    <h3 class="display-6 border-bottom border-black">What is Mario and Luigi: Brothership?</h3>
+                    <p>Mario and Luigi: Brothership is the latest upcoming first-party game from Nintendo. The game features the titular characters, Mario and Luigi, as they sail around the world of Concordia on a boat that’s also an island. It keeps the same wacky style and humor as the past Mario and Luigi games, but with improved graphics on the Switch. The theme of the game is connection, which is emphasized by the fun electrical-themed characters you meet throughout the game. Bowser does show up as one of the villains of the game, but there’s still lots of other fun villains like the wacky extension corps.</p>
+                    <img src="images/brothership-extension-corps.webp" class="text-right w-25 m-2">
+                </div>
+            </div>
+
+            <div id="paragraph-2" class="row">
+                <div class="jumbotron border border-black bg-secondary">
+                    <h3 class="display-6 border-bottom border-black">Why is Brothership exciting?</h3>
+                    <p>The Mario and Luigi game series is a fan-favorite series of games by Nintendo. It is a series of RPGs with unique gameplay where you control both Mario and Luigi simultaneously. Previously, the studio that developed every Mario and Luigi game was Alphadream, but the studio shut down in 2019. Many people thought that there weren't going to be any more Mario and Luigi games because of this. However, Mario and Luigi: Brothership was announced in June of 2024, being developed by the studio Acquire. It's also the first Mario and Luigi game on a home console.</p>
+                    <img src="images/brothership-brothers.jpg" class="text-right w-25 border border-black m-2">
+                </div>
+            </div>
+
+            <div id="paragraph-3" class="row">
+                <div class="jumbotron border border-black bg-secondary">
+                    <h3 class="display-6 border-bottom border-black">How do I play Brothership?</h3>
+                    <p>Mario and Luigi: Brothership is available to buy in many stores. Some of these stores are Gamestop, Walmart and Target. It is only on the switch, so you won't be able to play it on any other console or a PC (unless you sail the high seas). (yo ho ho). It also doesn't seem to require motion controls unlike some past Mario and Luigi games, so any third-party controllers without motion control functionality can be used to play it.</p>
+                    <img src="images/brothership-render.jpg" class="text-right w-25 border border-black m-2">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footer" class="row bg-dark">
+        <p class=" bg-black text-secondary text-center">DISCLAIMER: I do not own the copyright for Mario and Luigi: Brothership. All copyright of the game belongs to Nintendo.</p>
+    </div>
+  </div>
+</html>
